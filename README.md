@@ -1,11 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Orchard Admin Tool
+Rails API with Vue Frontend
+JWT Auth
 
-Things you may want to cover:
-
-* Ruby version
+* Ruby version 2.6.4
+* Rails version 6.0.0
+* Vue version 3.11.0
 
 * System dependencies
 
