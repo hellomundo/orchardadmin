@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :user do
-    email { "MyString" }
-    password_digest { "MyString" }
-    first_name { "MyString" }
-    last_name { "MyString" }
-    phone { "MyString" }
+    sequence(:email) { |n| "email-#{n}@test.com" }
+    password { "password" }
+    first_name { "Linda" }
+    last_name { "Jones" }
+    phone { "4153700655" }
   end
 end
